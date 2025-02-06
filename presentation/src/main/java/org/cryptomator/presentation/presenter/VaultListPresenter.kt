@@ -123,7 +123,6 @@ class VaultListPresenter @Inject constructor( //
 			sharedPreferencesHandler.vaultsRemovedDuringMigration(null)
 		}
 
-		checkLicense()
 
 		checkPermissions()
 	}
